@@ -99,6 +99,9 @@
   .menu-btn.orders {
     border-left-color: var(--accent-blue);
   }
+  .menu-btn.pending {
+    border-left-color: #8a4a1a;
+  }
   .menu-icon {
     font-family: 'Noto Serif JP', serif;
     font-size: 32px;
@@ -108,6 +111,7 @@
   }
   .menu-btn.checklist .menu-icon { color: var(--accent-red); }
   .menu-btn.orders .menu-icon { color: var(--accent-blue); }
+  .menu-btn.pending .menu-icon { color: #8a4a1a; }
   .menu-title {
     font-family: 'Noto Serif JP', serif;
     font-size: 22px;
@@ -162,6 +166,13 @@
       <span class="menu-icon">№</span>
       <div class="menu-title">受注リスト</div>
       <div class="menu-desc">電気工事・設備工事の案件管理</div>
+    </a>
+
+    <a href="./pending/" class="menu-btn pending">
+      <span class="menu-arrow">→</span>
+      <span class="menu-icon">⚒</span>
+      <div class="menu-title">未段取現場リスト</div>
+      <div class="menu-desc">段取りが必要な現場の管理</div>
     </a>
   </div>
 
